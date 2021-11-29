@@ -1,0 +1,50 @@
+:root { 
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 21px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 26px;
+ 
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+  --font-family-product_sans: "Product Sans", Helvetica;
+  --font-family-productsans-bold: "ProductSans-Bold", Helvetica;
+  --font-family-productsans-regular: "ProductSans-Regular", Helvetica;
+  --font-family-productsans_black-regular: "ProductSans Black-Regular", Helvetica;
+  --font-family-productsans_light-regular: "ProductSans Light-Regular", Helvetica;
+  --font-family-productsans_medium-regular: "ProductSans Medium-Regular", Helvetica;
+}
+.productsansmedium-regular-medium-white-21px {
+  color: var(--white);
+  font-family: var(--font-family-productsans_medium-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.productsanslight-regular-light-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-productsans_light-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.productsans-regular-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-productsans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}

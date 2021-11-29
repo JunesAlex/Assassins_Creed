@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "ProductSans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/product-sans-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProductSans Light-Regular";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/ProductSans-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProductSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Product Sans Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProductSans Black-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ProductSans-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProductSans Medium-Regular";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ProductSans-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Arial.ttf") format("truetype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
